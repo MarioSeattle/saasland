@@ -91,7 +91,7 @@
     position: absolute;
 }
 
-.round_line {
+/*.round_line {
     width: 600px;
     height: 600px;
     border-radius: 50%;
@@ -99,7 +99,7 @@
     position: absolute;
     opacity: 0.2;
     z-index: 0;
-}
+}*/
 
 .round_line.one {
     top: -230px;
@@ -116,15 +116,23 @@
     left: -50px;
 }
 
-.round_line.four {
+/*.round_line.four {
     bottom: -450px;
     left: -80px;
 }
 
-.round_line.two, .round_line.four {
+No round lines 
+
+*/
+
+/*.round_line.two, .round_line.four {
     width: 800px;
     height: 800px;
 }
+
+No round lines
+
+*/
 
 .active .round {
     -webkit-animation: zoomIn 0.7s both 0.4s;
@@ -146,20 +154,32 @@
     animation: fadeInUp2 1s both 1.4s;
 }
 
-.active .round_line.four {
+/*.active .round_line.four {
     -webkit-animation: fadeInUp2 1s both 1s;
     animation: fadeInUp2 1s both 1s;
-}
 
-.active .pp_sec_title h3 {
+    No round lines
+}*/ 
+
+/*.active .pp_sec_title h3 {
     -webkit-animation: fadeInUp .9s both 0.6s;
     animation: fadeInUp .9s both 0.6s;
-}
 
-.active .pp_sec_title h2 {
+    No animation for better flow
+
+    May 2nd
+
+} */
+
+/*.active .pp_sec_title h2 {
     -webkit-animation: fadeInUp .9s both 0.8s;
     animation: fadeInUp .9s both 0.8s;
-}
+
+    No animation for better flow
+
+    May 2nd
+
+} */
 
 .pp_block {
     right: 0;
@@ -257,15 +277,20 @@
     animation: slideInnew3 .9s both 1.4s;
 }
 
-.section-2.active .pp_work_content h3 {
+/*.section-2.active .pp_work_content h3 {
     -webkit-animation: fadeInUp .9s both 1.4s;
     animation: fadeInUp .9s both 1.4s;
-}
 
-.section-2.active .pp_work_content h2 {
+    No Animation for better mobile flow.
+
+    May 2nd
+
+} */
+
+/*.section-2.active .pp_work_content h2 {
     -webkit-animation: fadeInUp .9s both 1.6s;
     animation: fadeInUp .9s both 1.6s;
-}
+} */
 
 .section-2.active .pp_work_content p {
     -webkit-animation: fadeInUp .9s both 1.75s;
