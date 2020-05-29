@@ -77,7 +77,7 @@ msgid "Comment"
 msgstr ""
 
 #: footer.php:12
-msgid "© 2019 DroitThemes. All rights reserved"
+msgid "© 2018 - 2020 YouTour.Me . All rights reserved"
 msgstr ""
 
 #: footer.php:107
@@ -2854,7 +2854,7 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Full-width"
-msgstr ""
+msgstr ""   
 
 #. Template Name of the plugin/theme
 msgid "Job Application Form"
