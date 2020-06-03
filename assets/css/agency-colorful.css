@@ -244,8 +244,8 @@ No round lines
 }
 
 .btn_scroll:hover {
-    background: #80cd32;
-    border-color: #80cd32;
+    background: #69BE28;
+    border-color: #69BE28;
     -webkit-box-shadow: 0px 20px 50px 0px rgba(14, 6, 134, 0.2);
     box-shadow: 0px 20px 50px 0px rgba(14, 6, 134, 0.2);
     color: #fff;
