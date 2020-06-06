@@ -91,15 +91,9 @@
     position: absolute;
 }
 
-/*.round_line {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    position: absolute;
-    opacity: 0.2;
-    z-index: 0;
-}*/
+.round_line {
+  display: none;
+}
 
 .round_line.one {
     top: -230px;
@@ -116,23 +110,15 @@
     left: -50px;
 }
 
-/*.round_line.four {
-    bottom: -450px;
-    left: -80px;
+.round_line.four {
+   display: none;
 }
 
-No round lines 
 
-*/
-
-/*.round_line.two, .round_line.four {
-    width: 800px;
-    height: 800px;
+.round_line.two, .round_line.four {
+    display: none;
 }
 
-No round lines
-
-*/
 
 .active .round {
     -webkit-animation: zoomIn 0.7s both 0.4s;
@@ -154,32 +140,19 @@ No round lines
     animation: fadeInUp2 1s both 1.4s;
 }
 
-/*.active .round_line.four {
-    -webkit-animation: fadeInUp2 1s both 1s;
-    animation: fadeInUp2 1s both 1s;
+.active .round_line.four {
+    display: none;
+} 
 
-    No round lines
-}*/ 
+.active .pp_sec_title h3 {
+    display: none;
 
-/*.active .pp_sec_title h3 {
-    -webkit-animation: fadeInUp .9s both 0.6s;
-    animation: fadeInUp .9s both 0.6s;
+} 
 
-    No animation for better flow
+.active .pp_sec_title h2 {
+    display: none;
 
-    May 2nd
-
-} */
-
-/*.active .pp_sec_title h2 {
-    -webkit-animation: fadeInUp .9s both 0.8s;
-    animation: fadeInUp .9s both 0.8s;
-
-    No animation for better flow
-
-    May 2nd
-
-} */
+} 
 
 .pp_block {
     right: 0;
@@ -198,17 +171,8 @@ No round lines
 }
 
 .section_one_img .round {
-    width: 550px;
-    height: 550px;
-    border-radius: 50%;
-    background-image: -moz-linear-gradient(-140deg, #fae679 0%, #6ce987 100%);
-    background-image: -webkit-linear-gradient(-140deg, #fae679 0%, #6ce987 100%);
-    background-image: -ms-linear-gradient(-140deg, #fae679 0%, #6ce987 100%);
-    -webkit-box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    position: absolute;
-    top: -60px;
-    z-index: -2;
+    display: none;
+
 }
 
 .section_one_img .dots {
@@ -277,20 +241,14 @@ No round lines
     animation: slideInnew3 .9s both 1.4s;
 }
 
-/*.section-2.active .pp_work_content h3 {
-    -webkit-animation: fadeInUp .9s both 1.4s;
-    animation: fadeInUp .9s both 1.4s;
+.section-2.active .pp_work_content h3 {
+    display: none;
 
-    No Animation for better mobile flow.
+} 
 
-    May 2nd
-
-} */
-
-/*.section-2.active .pp_work_content h2 {
-    -webkit-animation: fadeInUp .9s both 1.6s;
-    animation: fadeInUp .9s both 1.6s;
-} */
+.section-2.active .pp_work_content h2 {
+   display: none;
+} 
 
 .section-2.active .pp_work_content p {
     -webkit-animation: fadeInUp .9s both 1.75s;
@@ -308,17 +266,7 @@ No round lines
 }
 
 .pp_mackbook_img .round {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-image: -moz-linear-gradient(50deg, #fae679 0%, #f364eb 100%);
-    background-image: -webkit-linear-gradient(50deg, #fae679 0%, #f364eb 100%);
-    background-image: -ms-linear-gradient(50deg, #fae679 0%, #f364eb 100%);
-    -webkit-box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    position: absolute;
-    top: -20px;
-    right: -161px;
+    display: none;
 }
 
 .pp_mackbook_img .one {
@@ -381,15 +329,8 @@ No round lines
 }
 
 .section-3 .section_one_img .round {
-    top: 45%;
-    margin-top: -250px;
-    background-image: -moz-linear-gradient(-120deg, #a679fa 0%, #ff6bb8 100%);
-    background-image: -webkit-linear-gradient(-120deg, #a679fa 0%, #ff6bb8 100%);
-    background-image: -ms-linear-gradient(-120deg, #a679fa 0%, #ff6bb8 100%);
-    -webkit-box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
-    width: 500px;
-    height: 500px;
+    display: none;
+
 }
 
 .section-3 .section_one_img .dots {
@@ -403,8 +344,7 @@ No round lines
 }
 
 .section-3.active .section_one_img .round {
-    -webkit-animation: zoomIn .9s both 1s;
-    animation: zoomIn .9s both 1s;
+    display: none;
 }
 
 .section-3.active .section_one_img img {
@@ -493,14 +433,8 @@ No round lines
 }
 
 .section-4 .section_one_img .round {
-    top: 50%;
-    margin-top: -250px;
-    width: 500px;
-    height: 500px;
-    left: -15px;
-    background-image: -moz-linear-gradient(-120deg, #fae679 0%, #f364eb 100%);
-    background-image: -webkit-linear-gradient(-120deg, #fae679 0%, #f364eb 100%);
-    background-image: -ms-linear-gradient(-120deg, #fae679 0%, #f364eb 100%);
+    display: none;
+
 }
 
 .section-4 .section_one_img .phon_img {
